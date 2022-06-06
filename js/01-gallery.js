@@ -48,7 +48,6 @@ createGalleryMarkup(galleryItems);
 function onEscPress(event) {
       if (event.code === 'Escape') {
      instance.close();
-     document.removeEventListener('keydown', onEscPress)
     }  
   }
 }

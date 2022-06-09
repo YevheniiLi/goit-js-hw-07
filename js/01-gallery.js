@@ -8,6 +8,7 @@ console.log(galleryItems);
 //   /*Создание и рендер разметки по массиву данных galleryItems и предоставленному шаблону элемента галереи.*/
 
 const galleryItemsMarkup = document.querySelector('.gallery');
+
 createGalleryMarkup(galleryItems);
 
   function createGalleryMarkup(galleryItems) {
